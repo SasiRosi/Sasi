@@ -1,0 +1,21 @@
+body {
+  background-image: url('/assets/atsfondo3.jpg');
+  /* Assicuatrati di aggiungere un'immagine nella cartella assets */
+
+  margin: 0;
+  /* Rimuove qualsiasi margine intorno al corpo della pagina */
+  padding: 0;
+  /* Rimuove qualsiasi padding */
+  height: 100vh;
+  /* Assicura che il corpo della pagina prenda l'intera altezza della finestra */
+  overflow: hidden;
+  /* Impedisce lo scorrimento */
+  background-size: cover;
+  /* Assicura che l'immagine copra tutta la pagina */
+  background-repeat: no-repeat;
+  /* Evita la ripetizione dell'immagine */
+  background-position: center;
+  /* Centra l'immagine sullo schermo */
+  background-attachment: fixed;
+  /* Mantiene l'immagine fissa */
+}

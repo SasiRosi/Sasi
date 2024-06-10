@@ -1,0 +1,51 @@
+.bar-list-container {
+    display: flex;
+     flex-direction: column;
+   /* gap: 15px; /* Aumentato lo spazio tra le barre */
+   /* padding: 10px; */
+  }
+  
+  .bar {
+    height: 50px; /* Altezza aumentata per barre più lunghe */
+    width: 370px; /* Larghezza aumentata per maggiore visibilità */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Il puntatore del mouse cambia al passaggio */
+    color: white; /* Colore del testo sulla barra */
+    border-radius: 10px; /* Arrotondamento dei bordi */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Effetto tridimensionale con ombreggiatura */
+    transition: transform 0.5s; /* Transizione per animazione */
+    margin: 12px 0; /* Spazio tra le barre */
+}
+  
+  .bar:hover {
+    transform: scale(1.1); /* Effetto di ingrandimento al passaggio del mouse */
+  }
+
+  .hidden{
+    visibility: hidden;
+  }
+  
+  .butty {
+    margin-bottom: 50px;
+    /* margin-right: -200px; */
+    background-color: #67060c; /* Blu */
+    color: white; /* Testo bianco */
+    padding: 10px 20px; /* Spaziatura interna */
+    border: none; /* Niente bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    cursor: pointer; /* Mostra il cursore come una mano */
+    transition: all 0.3s ease; /* Transizioni fluide */
+  }
+
+  /* Effetto al passaggio del mouse */
+  .butty:hover {
+    background-color: #2980b9; /* Cambia colore */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Aggiungi un'ombra */
+  }
+  
+  /* Effetto al cliccare il pulsante */
+  .butty:active {
+    transform: scale(0.95); /* Riduce leggermente le dimensioni */
+  }

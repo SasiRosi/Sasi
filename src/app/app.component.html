@@ -1,0 +1,55 @@
+
+<div class="container">
+
+  <!-- Pulsante per avviare la musica -->
+  <button class="start-music-button" (click)="startMusic()">
+  <i class="fas fa-music"></i>
+</button>
+
+  <!-- Pulsante per avviare la musica
+  <button class="start-music-button" (click)="stopMusic()">
+  <i class="fas fa-music-slash"></i>
+  </button> -->
+
+  <!-- Colonna a sinistra -->
+  <div class="left-column">
+    <app-bar-list [bars]="leftBars" colorType="blue"></app-bar-list>
+  </div>
+
+  <!-- src/app/app.component.html -->
+<!-- <div class="image-container">
+  <img src="assets/pacco4.jpg" alt="" />
+</div> -->
+
+<!-- <div class="image-container" (click)="toggleImage()"> -->
+  <!-- Ottiene l'immagine corrente usando getCurrentImage -->
+  <!-- <img [src]="getCurrentImage()" alt="Pacco" />
+</div> -->
+
+<div class="image-container" (click)="toggleImage()">
+  <img [src]="getCurrentImage()" alt="Pacco" />
+
+  <!-- Mostra il testo di buon compleanno se showBirthdayText è vero -->
+
+  <div *ngIf="showBirthdayText" class="birthday-text">
+
+    Tanti Auguri Dottoressa Rosina!!!
+  </div>
+
+</div>
+
+
+
+  <!-- Colonna a destra -->
+  <div class="right-column">
+
+    <app-bar-list-r [bars]="rightBars" colorType="red">
+
+    </app-bar-list-r>
+
+  </div>
+
+
+
+
+</div>

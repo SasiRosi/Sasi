@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; /* Occupa l'intera altezza della finestra */
+    position: relative;
+  }
+
+    .all {
+      background-image: url('/assets/atsfondo3.jpg');
+      /* Assicuatrati di aggiungere un'immagine nella cartella assets */
+  
+      margin: 0;
+      /* Rimuove qualsiasi margine intorno al corpo della pagina */
+      padding: 0;
+      /* Rimuove qualsiasi padding */
+      height: 100vh;
+      /* Assicura che il corpo della pagina prenda l'intera altezza della finestra */
+      overflow: hidden;
+      /* Impedisce lo scorrimento */
+      background-size: cover;
+      /* Assicura che l'immagine copra tutta la pagina */
+      background-repeat: no-repeat;
+      /* Evita la ripetizione dell'immagine */
+      background-position: center;
+      /* Centra l'immagine sullo schermo */
+      background-attachment: fixed;
+      /* Mantiene l'immagine fissa */
+    }
+  
+  .left-column,
+  .right-column {
+    flex: 0 0 auto; /* Dimensione fissa */
+    padding: 10px;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center-bottom {
+    position: absolute; /* Posizionamento assoluto */
+    bottom: 20px; /* Distanza dal fondo della pagina */
+    left: 50%; /* Allinea al centro orizzontalmente */
+    transform: translateX(-50%); /* Centra orizzontalmente */
+    text-align: center;
+  }
+  
+  .center-bottom img {
+    max-width: 100px; /* Dimensione massima dell'immagine */
+    height: auto; /* Mantiene proporzioni originali */
+  }
+  
+  .bar {
+    height: 20px;
+    width: 100px; /* Lunghezza della barra */
+    margin-bottom: 10px; /* Spaziatura tra barre */
+  }
+  
+  /* src/app/app.component.css */
+.image-container {
+    position: absolute;
+    bottom: 0; /* Posiziona in basso */
+    left: 50%; /* Centra orizzontalmente */
+    transform: translateX(-50%); /* Centra effettivamente */
+    cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
+
+}
+  
+  .image-container img {
+    transition: transform 0.3s ease-in-out; /* Aggiunge un'animazione liscia */
+    margin-left: 258px;
+    margin-bottom: -40px;
+    width: 50%;
+        height: auto; /* Mantiene proporzioni */
+  }
+
+  .image-container img:hover {
+    transform: scale(1.2); /* Ingrandisce l'immagine del 20% */
+  }
+
+  /* Assicurati che il componente principale abbia una posizione relativa */
+:host {
+    position: relative; /* Questo rende il contenitore principale il riferimento per il posizionamento assoluto */
+    min-height: 100vh; /* Mantiene la pagina intera visibile */
+  }
+
+  .birthday-text {
+    width: 100%;
+    position: fixed; /* Fa sì che copra l'intera finestra */
+    top: -22%; /* Centratura verticale */
+    left: 50%; /* Centratura orizzontale */
+    transform: translate(-50%, -50%); /* Mantenere centrato */
+    font-size: 4em; /* Dimensione grande del testo */
+    color: white; /* Testo bianco */
+    background: rgba(0, 0, 0, 0.7); /* Sfondo scuro per contrasto */
+    padding: 20px; /* Spaziatura intorno al testo */
+    border-radius: 10px; /* Angoli arrotondati */
+    text-align: center; /* Testo centrato */
+    animation: fadeIn 1s ease-in-out; /* Animazione */  animation: fadeIn 1s ease-in; /* Effetto di animazione */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Inizia invisibile */
+    }
+    to {
+      opacity: 1; /* Diventa visibile */
+    }
+  }
+
+    .start-music-button {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .start-music-button i {
+      font-size: 1.5em;
+    }
+  
+    .start-music-button:hover {
+      background-color: #45a049;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .start-music-button:active {
+      transform: scale(0.95);
+    }
+  
+  

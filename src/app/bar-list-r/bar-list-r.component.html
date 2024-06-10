@@ -1,0 +1,14 @@
+<div >
+
+    <div *ngFor="let bar of bars; let i = index" 
+    [ngStyle]="{'background-color': getBarColor(i, colorType)}" 
+    class="bar"
+    [@barState]="bar.visible ? 'visible' : 'hidden'"
+    (click)="hideBar(bar)"
+    >
+        {{ bar.label }}
+      </div>
+      <button class="butty" (click)="restoreLastRemovedBar()">Indietro</button>
+    
+    </div>  
+    
