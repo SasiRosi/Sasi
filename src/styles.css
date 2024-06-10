@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/atsfondo3.jpg');
+  background-image: url('./atsfondo3.jpg');
   /* Assicuatrati di aggiungere un'immagine nella cartella assets */
 
   margin: 0;
