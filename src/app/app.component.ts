@@ -11,11 +11,11 @@ import { AudioService } from './shared/audio.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
- 
+
   leftBars: Bar[] = [
-    { color: 'blue', label: 'letto',visible:true },
-    { color: 'blue', label: 'comodino',visible:true  },
-    { color: 'blue', label: 'poster' ,visible:true },
+    { color: 'blue', label: '1letto',visible:true },
+    { color: 'blue', label: '2comodino',visible:true  },
+    { color: 'blue', label: '3poster' ,visible:true },
     { color: 'blue', label: '1$' ,visible:true },
     { color: 'blue', label: '5$' ,visible:true },
     { color: 'blue', label: '10$' ,visible:true },
@@ -47,7 +47,7 @@ export class AppComponent {
 
   win: Boolean = true;
   toggleImage() {
-    
+
     if (this.win == true) {
       this.audioService.playSound('assets/music/win.wav');
       this.win = false;
