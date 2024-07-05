@@ -13,30 +13,30 @@ import { AudioService } from './shared/audio.service';
 export class AppComponent {
 
   leftBars: Bar[] = [
-    { color: 'blue', label: '1letto',visible:true },
-    { color: 'blue', label: '2comodino',visible:true  },
-    { color: 'blue', label: '3poster' ,visible:true },
-    { color: 'blue', label: '1$' ,visible:true },
-    { color: 'blue', label: '5$' ,visible:true },
-    { color: 'blue', label: '10$' ,visible:true },
-    { color: 'blue', label: '20' ,visible:true },
-    { color: 'blue', label: '50' ,visible:true },
-    { color: 'blue', label: '100' ,visible:true },
-    { color: 'blue', label: '200' ,visible:true },
+    { color: 'blue', label: '0 Euro',visible:true },
+    { color: 'blue', label: 'Busta di patatine vivaci',visible:true  },
+    { color: 'blue', label: 'Certamen con Brigida franzese' ,visible:true },
+    { color: 'blue', label: 'Set fotografico con il tablet di Pinuccio' ,visible:true },
+    { color: 'blue', label: 'Giornata al pascolo con la Sheep' ,visible:true },
+    { color: 'blue', label: 'Cena con Annamaria e Gennaro' ,visible:true },
+    { color: 'blue', label: 'Pizza da gustami' ,visible:true },
+    { color: 'blue', label: 'Tirocinio in ospedale con Pasquale De Giulio\n' ,visible:true },
+    { color: 'blue', label: 'Seduta dal fisioterapista di Lilia' ,visible:true },
+    { color: 'blue', label: 'Lezione di guida con Luigi Franzese' ,visible:true },
     // altre barre
   ];
 
   rightBars: Bar[] = [
-    { color: 'red', label: '1000',visible:true  },
-    { color: 'red', label: '2000' ,visible:true },
-    { color: 'red', label: '3000' ,visible:true },
-    { color: 'red', label: '4000' ,visible:true },
-    { color: 'red', label: '5000' ,visible:true },
-    { color: 'red', label: '6000' ,visible:true },
-    { color: 'red', label: '10000' ,visible:true },
-    { color: 'red', label: '100.000' ,visible:true },
-    { color: 'red', label: '200.000' ,visible:true },
-    { color: 'red', label: '500.000' ,visible:true },
+    { color: 'red', label: 'Panino da paninoteca da Francesco',visible:true  },
+    { color: 'red', label: 'Pomeriggio di ozio col Terranera' ,visible:true },
+    { color: 'red', label: '20 Euro' ,visible:true },
+    { color: 'red', label: 'Degustazione di formaggi alla Guerriero group' ,visible:true },
+    { color: 'red', label: 'Buono Amazon da 50 euro' ,visible:true },
+    { color: 'red', label: 'Shopping con zia Pina' ,visible:true },
+    { color: 'red', label: 'Weekend a Ischia a casa di Lilia ' ,visible:true },
+    { color: 'red', label: 'Buono per un volo da 200 euro\n' ,visible:true },
+    { color: 'red', label: 'Buono da Zara di 300 euro' ,visible:true },
+    { color: 'red', label: 'Una Settimana di vacanza in Sicilia' ,visible:true },
 
     // altre barre
   ];

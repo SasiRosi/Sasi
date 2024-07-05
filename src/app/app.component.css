@@ -5,10 +5,22 @@
     position: relative;
   }
 
+.titoloSasi{
+  height: 120px;
+  margin-top: 100px;
+  color: white; /* Colore del testo */
+  font-size: 3em; /* Dimensione del testo */
+  text-align: center; /* Allineamento al centro */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo per un effetto più accattivante */
+  background: linear-gradient(to right, #0000FF,#FF0000);
+  border-radius: 10px;
+
+}
+
     .all {
       background-image: url('/assets/atsfondo3.jpg');
       /* Assicuatrati di aggiungere un'immagine nella cartella assets */
-  
+
       margin: 0;
       /* Rimuove qualsiasi margine intorno al corpo della pagina */
       padding: 0;
@@ -26,23 +38,23 @@
       background-attachment: fixed;
       /* Mantiene l'immagine fissa */
     }
-  
+
   .left-column,
   .right-column {
     flex: 0 0 auto; /* Dimensione fissa */
     padding: 10px;
   }
-  
+
   .left-column {
     display: flex;
     flex-direction: column;
   }
-  
+
   .right-column {
     display: flex;
     flex-direction: column;
   }
-  
+
   .center-bottom {
     position: absolute; /* Posizionamento assoluto */
     bottom: 20px; /* Distanza dal fondo della pagina */
@@ -50,18 +62,18 @@
     transform: translateX(-50%); /* Centra orizzontalmente */
     text-align: center;
   }
-  
+
   .center-bottom img {
     max-width: 100px; /* Dimensione massima dell'immagine */
     height: auto; /* Mantiene proporzioni originali */
   }
-  
+
   .bar {
     height: 20px;
     width: 100px; /* Lunghezza della barra */
     margin-bottom: 10px; /* Spaziatura tra barre */
   }
-  
+
   /* src/app/app.component.css */
 .image-container {
     position: absolute;
@@ -71,7 +83,7 @@
     cursor: pointer; /* Cambia il cursore quando il mouse è sopra */
 
 }
-  
+
   .image-container img {
     transition: transform 0.3s ease-in-out; /* Aggiunge un'animazione liscia */
     margin-left: 258px;
@@ -104,7 +116,7 @@
     text-align: center; /* Testo centrato */
     animation: fadeIn 1s ease-in-out; /* Animazione */  animation: fadeIn 1s ease-in; /* Effetto di animazione */
   }
-  
+
   @keyframes fadeIn {
     from {
       opacity: 0; /* Inizia invisibile */
@@ -128,18 +140,17 @@
       cursor: pointer;
       transition: all 0.3s ease;
     }
-  
+
     .start-music-button i {
       font-size: 1.5em;
     }
-  
+
     .start-music-button:hover {
       background-color: #45a049;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-  
+
     .start-music-button:active {
       transform: scale(0.95);
     }
-  
-  
+
