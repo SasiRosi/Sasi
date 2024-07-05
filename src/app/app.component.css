@@ -3,11 +3,12 @@
     justify-content: space-between;
     height: 100vh; /* Occupa l'intera altezza della finestra */
     position: relative;
+  overflow: auto;
   }
 
 .titoloSasi{
   height: 120px;
-  margin-top: 100px;
+  margin-top: 75px;
   color: white; /* Colore del testo */
   font-size: 3em; /* Dimensione del testo */
   text-align: center; /* Allineamento al centro */

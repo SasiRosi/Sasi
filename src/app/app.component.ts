@@ -15,11 +15,11 @@ export class AppComponent {
   leftBars: Bar[] = [
     { color: 'blue', label: '0 Euro',visible:true },
     { color: 'blue', label: 'Busta di patatine vivaci',visible:true  },
-    { color: 'blue', label: 'Certamen con Brigida franzese' ,visible:true },
+    { color: 'blue', label: 'Certamen con Brigida Franzese' ,visible:true },
     { color: 'blue', label: 'Set fotografico con il tablet di Pinuccio' ,visible:true },
     { color: 'blue', label: 'Giornata al pascolo con la Sheep' ,visible:true },
     { color: 'blue', label: 'Cena con Annamaria e Gennaro' ,visible:true },
-    { color: 'blue', label: 'Pizza da gustami' ,visible:true },
+    { color: 'blue', label: 'Pizza da Gustami' ,visible:true },
     { color: 'blue', label: 'Tirocinio in ospedale con Pasquale De Giulio\n' ,visible:true },
     { color: 'blue', label: 'Seduta dal fisioterapista di Lilia' ,visible:true },
     { color: 'blue', label: 'Lezione di guida con Luigi Franzese' ,visible:true },
