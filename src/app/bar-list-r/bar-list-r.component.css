@@ -4,8 +4,9 @@
    /* gap: 15px; /* Aumentato lo spazio tra le barre */
    /* padding: 10px; */
   }
-  
+
   .bar {
+    font-size: 19px;
     height: 50px; /* Altezza aumentata per barre più lunghe */
     width: 370px; /* Larghezza aumentata per maggiore visibilità */
     display: flex;
@@ -18,7 +19,7 @@
     transition: transform 0.5s; /* Transizione per animazione */
     margin: 12px 0; /* Spazio tra le barre */
 }
-  
+
   .bar:hover {
     transform: scale(1.1); /* Effetto di ingrandimento al passaggio del mouse */
   }
@@ -26,8 +27,9 @@
   .hidden{
     visibility: hidden;
   }
-  
+
   .butty {
+    font-size: 21px;
     margin-bottom: 50px;
     /* margin-right: -200px; */
     background-color: #67060c; /* Blu */
@@ -44,7 +46,7 @@
     background-color: #2980b9; /* Cambia colore */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Aggiungi un'ombra */
   }
-  
+
   /* Effetto al cliccare il pulsante */
   .butty:active {
     transform: scale(0.95); /* Riduce leggermente le dimensioni */
